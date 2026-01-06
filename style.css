@@ -19,7 +19,7 @@ body {
 .calculator-container {
     justify-content: center;
     align-items: center;
-    height: 510px;
+    height: 600px;
     width: 410px;
     background-color: #1a2030;
     display: flex;
@@ -44,22 +44,38 @@ body {
 
 .keypad-container {
     width: 380px;
-    height: 360px;
+    height: 440px;
     background-color: #f4f6f4;
     margin: 10px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
     padding: 10px;
     border-radius: 5px;
+    flex-direction: column;
+}
+
+.num-container{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.operator-container{
+    display: flex;
+    width: 25%;
+    gap: 10px;
+    flex-direction: column;
 }
 
 .cal-key {
     background-color: #393c44;
     width: 77px;
     height: 75px;
-    border-radius: 5px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,6 +83,10 @@ body {
     cursor: pointer;
     font-size: 25px;
     font-weight: 600;
+}
+
+.op-key{
+    background-color: rgb(255, 166, 0);
 }
 
 .cal-key:hover {
