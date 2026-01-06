@@ -38,8 +38,8 @@ body {
     background-color: #f4f6f4;
     color: white;
     border-radius: 5px;
-    overflow-x: auto;        /* allow horizontal scroll */
-    white-space: nowrap;     /* keep text in one line */
+    overflow-x: auto;        
+    white-space: nowrap;     
 }
 
 .keypad-container {
@@ -102,3 +102,4 @@ body {
     width: 100%;
     text-align: right;
 }
+
